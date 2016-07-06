@@ -1,0 +1,57 @@
+@font-face{
+	font-family: miFuente1;
+	src: url(Fuente1.ttf);
+}
+@font-face{
+	font-family: miFuente2;
+	src: url(Fuente2.otf);
+}
+@font-face{
+	font-family: miFuente3;
+	src: url(Fuente3.ttf);
+}
+
+body{
+	background: green;
+	color: #eee;
+	
+	text-align: center;
+
+}
+#p1 p{
+	font-family: "miFuente1";
+	font-size: 30px;
+}
+#p1 div{
+	height: 20px;
+	width: 1500px;
+	background: radial-gradient(red, yellow, green);
+
+
+}
+h1{
+	text-shadow: 10px 5px black;
+}
+
+#p2 p{
+	font-family: "miFuente3";
+	font-size: 30px;
+}
+#p2 div{
+	height: 20px;
+	width: 1500px;
+	background: linear-gradient(blue, white);
+
+
+}
+h2{
+	text-shadow: 10px 5px grey;
+}
+#p3 p{
+	font-family: "miFuente2";
+	font-size: 30px;
+}
+h3{
+	text-shadow: 10px 5px blue;
+}
+
